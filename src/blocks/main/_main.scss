@@ -1,0 +1,41 @@
+.main {
+    /* Style for "Main Backgroun" */
+ 
+    background-color: #464f54;
+    padding-top: 150px;
+    background-image: url('../img/document_background.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    
+
+    &__letter {
+        position: relative;
+        background-color: white;
+        padding-top: 200px;
+        margin-left: 55px;
+        margin-right: 55px;
+        opacity: 0.3;
+    }
+
+    &__input {
+        position: absolute;
+        top: -103px;
+        right: -1px;
+        width: 876px;
+        height: 187px;
+        background-color: #181818;
+        box-shadow: -3.5px -3.5px 59px rgba(0, 0, 0, 0.16);
+    }
+  
+    &__editor {
+        position: absolute;
+        opacity: 0.3;
+        top: 84px;
+        right: -63px;
+        margin-right: 50px;
+        width: 876px;
+        height: 76px;
+        background-color: #fbc02d;
+        box-shadow: -3.5px -3.5px 59px rgba(0, 0, 0, 0.16);
+    }
+}

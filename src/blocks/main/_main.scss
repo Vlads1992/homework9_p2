@@ -3,9 +3,11 @@
  
     background-color: #464f54;
     padding-top: 150px;
-    background-image: url('../img/document_background.png');
-    background-repeat: no-repeat;
-    background-position: top;
+    // background-image: url('../img/document_background.png');
+    // background-repeat: no-repeat;
+    // background-position: top;
+
+
     
 
     &__letter {
@@ -18,18 +20,51 @@
     }
 
     &__input {
+
         position: absolute;
+        font-family: 'proxima_novaregular';
+        color: #767676;
+        font-size: 15px;
+        font-weight: 400;
+        
+        padding-left: 63px;
+        text-transform: uppercase;
         top: -103px;
         right: -1px;
         width: 876px;
         height: 187px;
+        letter-spacing: 8px;
         background-color: #181818;
         box-shadow: -3.5px -3.5px 59px rgba(0, 0, 0, 0.16);
+
+        .title {
+            color: #fefefe;
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 400;
+            margin-top: 8px;
+            text-transform: none;
+            letter-spacing: normal;
+            margin-bottom: 14px;
+            
+            
+        }
+    }
+
+    &__input p {
+        margin-top: 50px;
+    }
+
+
+    .line {
+        height: 3px;
+        opacity: 0.1;
+        background-color: white;
     }
   
     &__editor {
         position: absolute;
-        opacity: 0.3;
+        
         top: 84px;
         right: -63px;
         margin-right: 50px;

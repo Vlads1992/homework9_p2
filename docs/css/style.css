@@ -4851,6 +4851,8 @@ body {
 html {
   font-family: "proxima_novaregular";
   font-family: "Playfair Display", serif;
+  font-family: "Futura PT";
+  font-family: "Georgia";
 }
 
 .container--lg {
@@ -4869,10 +4871,60 @@ html {
 .main__letter {
   position: relative;
   background-color: white;
+  -webkit-box-shadow: 0 0 35px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 0 35px rgba(0, 0, 0, 0.22);
   padding-top: 200px;
   margin-left: 55px;
   margin-right: 55px;
-  opacity: 0.3;
+  padding-left: 125px;
+  color: #b4b4b4;
+  font-family: "proxima_novaregular";
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+.main__text {
+  color: black;
+  font-family: Georgia;
+  font-size: 27px;
+  line-height: 40px;
+  padding-right: 110px;
+  /* Text style for "I've seen thin" */
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  /* Text style for "Time to die." */
+}
+.main__text p:first-of-type {
+  padding-bottom: 23px;
+}
+.main__letter h1 {
+  color: #2a2a2a;
+  font-family: "Futura PT";
+  font-size: 78px;
+  font-weight: 800;
+  line-height: 74px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  letter-spacing: 4px;
+  margin-left: -1px;
+}
+.main__letter p {
+  padding-bottom: 51px;
+}
+.main__letter p:first-of-type {
+  padding-bottom: 34px;
+}
+.main__letter h3 {
+  color: #8f8f8f;
+  font-family: "Georgia";
+  font-size: 30px;
+  font-style: italic;
+  line-height: 6px;
+  text-transform: none;
+  letter-spacing: normal;
+  padding-bottom: 60px;
 }
 .main__input {
   position: absolute;
@@ -4891,7 +4943,7 @@ html {
   -webkit-box-shadow: -3.5px -3.5px 59px rgba(0, 0, 0, 0.16);
           box-shadow: -3.5px -3.5px 59px rgba(0, 0, 0, 0.16);
 }
-.main__input .title {
+.main__title {
   color: #fefefe;
   font-family: "Playfair Display", serif;
   font-size: 48px;
@@ -4904,6 +4956,9 @@ html {
 .main__input p {
   margin-top: 50px;
 }
+.main__input p:nth-child(2) {
+  margin-top: 8px;
+}
 .main .line {
   height: 3px;
   opacity: 0.1;
@@ -4911,6 +4966,11 @@ html {
 }
 .main__editor {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 22px;
+  padding-left: 43px;
   top: 84px;
   right: -63px;
   margin-right: 50px;
@@ -4919,5 +4979,39 @@ html {
   background-color: #fbc02d;
   -webkit-box-shadow: -3.5px -3.5px 59px rgba(0, 0, 0, 0.16);
           box-shadow: -3.5px -3.5px 59px rgba(0, 0, 0, 0.16);
+}
+.main__image {
+  padding-right: 23px;
+}
+.main__image:nth-child(2) {
+  padding-right: 30px;
+}
+.main__image:nth-child(3) {
+  padding-right: 32px;
+}
+.main__image:nth-child(4) {
+  padding-right: 40px;
+}
+.main__image:nth-child(5) {
+  padding-right: 41px;
+}
+.main__image:nth-child(6) {
+  padding-right: 38px;
+}
+.main__image:nth-child(7) {
+  padding-right: 32px;
+}
+.main__image:nth-child(8) {
+  padding-right: 31px;
+}
+.main__image:nth-child(9) {
+  padding-right: 31px;
+}
+.main__image:nth-child(10) {
+  padding-right: 0px;
+}
+.main__image:hover {
+  -webkit-filter: brightness(400%);
+          filter: brightness(400%);
 }
 /*# sourceMappingURL=style.css.map */

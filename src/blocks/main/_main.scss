@@ -23,7 +23,7 @@
         font-size: 20px;
         font-weight: 400;
         text-transform: uppercase;
-        letter-spacing: 7px;
+        letter-spacing: 4px;
         
     }
 
@@ -52,7 +52,7 @@
         font-weight: 800;
         line-height: 74px;
         text-transform: uppercase;
-        padding-bottom: 5px;
+        margin-bottom: 9px;
         letter-spacing: 4px;
         margin-left: -1px;
     }
@@ -70,10 +70,11 @@
         font-family: 'Georgia';
         font-size: 30px;
         font-style: italic;
-        line-height: 6px;
+        line-height: normal;
         text-transform: none;
         letter-spacing: normal;
         padding-bottom: 60px;
+        margin-left: -4px;
     }
 
     &__input {
@@ -90,7 +91,7 @@
         right: -1px;
         width: 876px;
         height: 187px;
-        letter-spacing: 8px;
+        letter-spacing: 5px;
         background-color: #181818;
         box-shadow: -3.5px -3.5px 59px rgba(0, 0, 0, 0.16);
 
@@ -105,7 +106,7 @@
             text-transform: none;
             letter-spacing: normal;
             margin-bottom: 14px;
-            
+            margin-left: -3px;
             
         }
 
@@ -114,7 +115,7 @@
     }
 
     &__input p:nth-child(2) {
-        margin-top: 8px;
+        margin-top: 4px;
     }
 
 

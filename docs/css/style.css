@@ -4867,6 +4867,7 @@ html {
   /* Style for "Main Backgroun" */
   background-color: #464f54;
   padding-top: 150px;
+  padding-bottom: 73px;
 }
 .main__letter {
   position: relative;

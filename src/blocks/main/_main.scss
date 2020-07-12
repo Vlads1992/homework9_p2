@@ -25,14 +25,18 @@
         text-transform: uppercase;
         letter-spacing: 4px;
         
+        
+        
     }
 
     &__text {
+
+    
         color: black;
         font-family: Georgia;
         font-size: 27px;
         line-height: 40px;
-        padding-right: 110px;
+        margin-right: 110px;
         /* Text style for "I've seen thin" */
         font-weight: 400;
         text-transform: none;
@@ -41,9 +45,7 @@
         
     }
 
-    &__text p:first-of-type {
-        padding-bottom: 23px;
-    }
+    
 
     &__letter h1 {
         color: #2a2a2a;
@@ -58,11 +60,15 @@
     }
 
     &__letter p {
-        padding-bottom: 51px;
+        padding-bottom: 30px;
     }
 
     &__letter p:first-of-type {
-        padding-bottom: 34px;
+        padding-bottom: 33px;
+    }
+
+    &__text p:first-of-type {
+        margin-bottom: -13px;
     }
 
     &__letter h3 {
@@ -73,7 +79,7 @@
         line-height: normal;
         text-transform: none;
         letter-spacing: normal;
-        padding-bottom: 60px;
+        margin-bottom: 47px;
         margin-left: -4px;
     }
 

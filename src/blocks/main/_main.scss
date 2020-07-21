@@ -1,11 +1,8 @@
 .main {
-    /* Style for "Main Backgroun" */
+    
  
     background-color: #464f54;
     padding-top: 150px;
-    // background-image: url('../img/document_background.png');
-    // background-repeat: no-repeat;
-    // background-position: top;
     padding-bottom: 73px;
 
 
@@ -120,6 +117,16 @@
             
         }
 
+        &__cursor {
+            border-right: 2px solid white;
+      height: 43px;
+      position: absolute;
+      left: 50%;
+      margin-left: -27px;
+      opacity: 0.71;
+      top: 73px;
+        }
+
     &__input p {
         margin-top: 49px;
     }
@@ -132,6 +139,7 @@
     .line {
         height: 3px;
         opacity: 0.1;
+        margin-top: -29px;
         background-color: white;
         margin-left: -4px;
     }

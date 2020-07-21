@@ -4929,6 +4929,14 @@ html {
   margin-bottom: 47px;
   margin-left: -4px;
 }
+.main__dash {
+  border-left: 2px solid #e8eced;
+  height: 748px;
+  position: absolute;
+  left: 7%;
+  margin-left: -5px;
+  top: 0;
+}
 .main__input {
   position: absolute;
   font-family: "proxima_novaregular";
@@ -4972,7 +4980,7 @@ html {
 .main__input p:nth-child(2) {
   margin-top: 4px;
 }
-.main .line {
+.main__line {
   height: 3px;
   opacity: 0.1;
   margin-top: -29px;

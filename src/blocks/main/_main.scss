@@ -84,6 +84,15 @@
         margin-left: -4px;
     }
 
+    &__dash {
+        border-left: 2px solid #e8eced;
+        height: 748px;
+        position: absolute;
+        left: 7%;
+        margin-left: -5px;
+        top: 0;
+    }
+
     &__input {
 
         position: absolute;
@@ -136,7 +145,7 @@
     }
 
 
-    .line {
+    &__line {
         height: 3px;
         opacity: 0.1;
         margin-top: -29px;

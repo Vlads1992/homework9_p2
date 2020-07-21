@@ -4894,7 +4894,9 @@ html {
   /* Text style for "I've seen thin" */
   font-weight: 400;
   text-transform: none;
-  letter-spacing: normal;
+  letter-spacing: -0.2px;
+  text-align: justify;
+  padding-right: 22px;
   /* Text style for "Time to die." */
 }
 .main__letter h1 {

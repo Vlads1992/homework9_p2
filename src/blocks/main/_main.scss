@@ -185,7 +185,7 @@
     &__image:nth-child(4) {
         padding-top: 2px;
         padding-right: 40px;
-        pointer-events: none;
+        opacity: 0.4;
     }
 
 
@@ -221,7 +221,7 @@
     }
 
 
-    &__image:hover {
+    img:hover {
         filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(81deg) brightness(116%) contrast(105%);
       
 
